@@ -1,0 +1,38 @@
+{
+  "name": "role_based_application",
+  "version": "1.0.0",
+  "description": "Creating an Role based Application for School maintainance.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node /src/index.ts",
+    "start": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramyashree569/Role_Based_Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramyashree569/Role_Based_Application/issues"
+  },
+  "homepage": "https://github.com/ramyashree569/Role_Based_Application#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1"
+  }
+}
